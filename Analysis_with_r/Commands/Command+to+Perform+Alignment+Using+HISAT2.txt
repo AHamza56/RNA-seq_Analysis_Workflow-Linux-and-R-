@@ -1,0 +1,4 @@
+#Command to perform the alignment of reads with reference genome using HISAT2. Please copy and paste this command
+# Please remember that input files name could be different in your case. So please mindful for that 
+
+hisat2 -q --rna-strandness R -x  grch38/genome -U demo_trimmed.fastq | samtools sort -o demo_trimmed.bam
