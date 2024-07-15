@@ -1,0 +1,4 @@
+# Command to perform the FASTQC tool. Please copy the following command and use it. 
+# Please remember that the input file name may different in your case
+
+fastqc test_udemy.fastq

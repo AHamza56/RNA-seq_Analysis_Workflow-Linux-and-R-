@@ -1,0 +1,4 @@
+#Command to build the Feature count matrix using Subread tool in Linux. Please copy and paste this command
+# Please remember that input files name could be different in your case. So please mindful for that 
+
+featureCounts -S 2 -a Homo_sapiens.GRCh38.106.gtf -o test_featurecounts.txt test_trimmed.bam
