@@ -759,6 +759,9 @@ png("GO_Barplot.png", res = 250, width = 1200, height = 1000)
 print(fit)
 dev.off()
 ```
+![GO Barplot](GO_Barplot.png)
+
+---
 
 ## Performing KEGG pathway analysis 
 KEGG pathway analysis plays a crucial role in deciphering the functional implications of gene expression changes within biological contexts. Using a list of genes identified as significantly differentially expressed between experimental conditions, KEGG pathway analysis maps these genes onto curated pathways available in the KEGG database. Each pathway represents a series of molecular interactions and reactions involved in specific biological processes, such as metabolic pathways, signal transduction, or disease mechanisms.
@@ -804,6 +807,9 @@ dotplot(kegg_enrich, showCategory=10)
 # Visualizing a specific KEGG pathway (e.g., "hsa04110") using the pathview package
 pathview(gene.data = gene_list, pathway.id = "hsa04110", species = "hsa")
 ```
+![hsa04110.pathview](hsa04110.pathview.png)
+![hsa04110](hsa04110.png)
+
 ---
 
 ## References
